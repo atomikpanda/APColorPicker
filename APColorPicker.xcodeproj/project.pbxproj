@@ -7,16 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662DAA311FC24FCB00E8F46C /* APColorPickerStatic.m in Sources */ = {isa = PBXBuildFile; fileRef = 662DAA301FC24FCB00E8F46C /* APColorPickerStatic.m */; };
+		662DAA321FC24FCB00E8F46C /* APColorPickerStatic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 662DAA2F1FC24FCB00E8F46C /* APColorPickerStatic.h */; };
+		662DAA361FC24FF200E8F46C /* APColorAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67111F9BE443003E4FF7 /* APColorAlert.m */; };
+		662DAA371FC24FFA00E8F46C /* APHaloHueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67151F9BE54C003E4FF7 /* APHaloHueView.m */; };
+		662DAA381FC24FFD00E8F46C /* APColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67191F9BE6DC003E4FF7 /* APColorSlider.m */; };
+		662DAA391FC2500100E8F46C /* APColorPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67211F9BED81003E4FF7 /* APColorPreviewView.m */; };
+		662DAA3A1FC2500400E8F46C /* UIColor+APColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B671E1F9BEACE003E4FF7 /* UIColor+APColor.m */; };
+		662DAA3B1FC2567900E8F46C /* APColorPicker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666B67081F9BE3D6003E4FF7 /* APColorPicker.h */; };
+		662DAA3C1FC2567B00E8F46C /* APColorAlert.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666B67101F9BE443003E4FF7 /* APColorAlert.h */; };
+		662DAA3D1FC2567F00E8F46C /* APHaloHueView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666B67141F9BE54C003E4FF7 /* APHaloHueView.h */; };
+		662DAA3E1FC2568200E8F46C /* APColorSlider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666B67181F9BE6DC003E4FF7 /* APColorSlider.h */; };
+		662DAA3F1FC2568400E8F46C /* APColorPreviewView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666B67201F9BED81003E4FF7 /* APColorPreviewView.h */; };
+		662DAA401FC2568700E8F46C /* UIColor+APColor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666B671C1F9BEA70003E4FF7 /* UIColor+APColor.h */; };
 		666B670A1F9BE3D6003E4FF7 /* APColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 666B67081F9BE3D6003E4FF7 /* APColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		666B67121F9BE443003E4FF7 /* APColorAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 666B67101F9BE443003E4FF7 /* APColorAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		666B67131F9BE443003E4FF7 /* APColorAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67111F9BE443003E4FF7 /* APColorAlert.m */; };
+		666B67161F9BE54C003E4FF7 /* APHaloHueView.h in Headers */ = {isa = PBXBuildFile; fileRef = 666B67141F9BE54C003E4FF7 /* APHaloHueView.h */; };
+		666B67171F9BE54C003E4FF7 /* APHaloHueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67151F9BE54C003E4FF7 /* APHaloHueView.m */; };
+		666B671A1F9BE6DC003E4FF7 /* APColorSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 666B67181F9BE6DC003E4FF7 /* APColorSlider.h */; };
+		666B671B1F9BE6DC003E4FF7 /* APColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67191F9BE6DC003E4FF7 /* APColorSlider.m */; };
+		666B671D1F9BEA70003E4FF7 /* UIColor+APColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 666B671C1F9BEA70003E4FF7 /* UIColor+APColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		666B671F1F9BEACE003E4FF7 /* UIColor+APColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B671E1F9BEACE003E4FF7 /* UIColor+APColor.m */; };
+		666B67221F9BED81003E4FF7 /* APColorPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 666B67201F9BED81003E4FF7 /* APColorPreviewView.h */; };
+		666B67231F9BED81003E4FF7 /* APColorPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67211F9BED81003E4FF7 /* APColorPreviewView.m */; };
+		666B672C1F9BF43B003E4FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B672B1F9BF43B003E4FF7 /* AppDelegate.m */; };
+		666B672F1F9BF43B003E4FF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B672E1F9BF43B003E4FF7 /* ViewController.m */; };
+		666B67321F9BF43B003E4FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666B67301F9BF43B003E4FF7 /* Main.storyboard */; };
+		666B67341F9BF43B003E4FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666B67331F9BF43B003E4FF7 /* Assets.xcassets */; };
+		666B67371F9BF43B003E4FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666B67351F9BF43B003E4FF7 /* LaunchScreen.storyboard */; };
+		666B673A1F9BF43B003E4FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67391F9BF43B003E4FF7 /* main.m */; };
+		666B67431F9BF45C003E4FF7 /* APColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666B67051F9BE3D6003E4FF7 /* APColorPicker.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		666B67401F9BF456003E4FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 666B66FC1F9BE3D6003E4FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 666B67041F9BE3D6003E4FF7;
+			remoteInfo = APColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		662DAA2B1FC24FCB00E8F46C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include/APColorPicker;
+			dstSubfolderSpec = 16;
+			files = (
+				662DAA3D1FC2567F00E8F46C /* APHaloHueView.h in CopyFiles */,
+				662DAA321FC24FCB00E8F46C /* APColorPickerStatic.h in CopyFiles */,
+				662DAA3B1FC2567900E8F46C /* APColorPicker.h in CopyFiles */,
+				662DAA3C1FC2567B00E8F46C /* APColorAlert.h in CopyFiles */,
+				662DAA3E1FC2568200E8F46C /* APColorSlider.h in CopyFiles */,
+				662DAA401FC2568700E8F46C /* UIColor+APColor.h in CopyFiles */,
+				662DAA3F1FC2568400E8F46C /* APColorPreviewView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		662DAA2D1FC24FCB00E8F46C /* libAPColorPickerStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPColorPickerStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		662DAA2F1FC24FCB00E8F46C /* APColorPickerStatic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APColorPickerStatic.h; sourceTree = "<group>"; };
+		662DAA301FC24FCB00E8F46C /* APColorPickerStatic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APColorPickerStatic.m; sourceTree = "<group>"; };
 		666B67051F9BE3D6003E4FF7 /* APColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		666B67081F9BE3D6003E4FF7 /* APColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APColorPicker.h; sourceTree = "<group>"; };
 		666B67091F9BE3D6003E4FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666B67101F9BE443003E4FF7 /* APColorAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APColorAlert.h; sourceTree = "<group>"; };
+		666B67111F9BE443003E4FF7 /* APColorAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APColorAlert.m; sourceTree = "<group>"; };
+		666B67141F9BE54C003E4FF7 /* APHaloHueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APHaloHueView.h; sourceTree = "<group>"; };
+		666B67151F9BE54C003E4FF7 /* APHaloHueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APHaloHueView.m; sourceTree = "<group>"; };
+		666B67181F9BE6DC003E4FF7 /* APColorSlider.h */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = APColorSlider.h; sourceTree = "<group>"; };
+		666B67191F9BE6DC003E4FF7 /* APColorSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APColorSlider.m; sourceTree = "<group>"; };
+		666B671C1F9BEA70003E4FF7 /* UIColor+APColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APColor.h"; sourceTree = "<group>"; };
+		666B671E1F9BEACE003E4FF7 /* UIColor+APColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APColor.m"; sourceTree = "<group>"; };
+		666B67201F9BED81003E4FF7 /* APColorPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APColorPreviewView.h; sourceTree = "<group>"; };
+		666B67211F9BED81003E4FF7 /* APColorPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APColorPreviewView.m; sourceTree = "<group>"; };
+		666B67281F9BF43B003E4FF7 /* APExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		666B672A1F9BF43B003E4FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		666B672B1F9BF43B003E4FF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		666B672D1F9BF43B003E4FF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		666B672E1F9BF43B003E4FF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		666B67311F9BF43B003E4FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		666B67331F9BF43B003E4FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		666B67361F9BF43B003E4FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		666B67381F9BF43B003E4FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		666B67391F9BF43B003E4FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		662DAA2A1FC24FCB00E8F46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		666B67011F9BE3D6003E4FF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -24,14 +113,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		666B67251F9BF43B003E4FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666B67431F9BF45C003E4FF7 /* APColorPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		662DAA2E1FC24FCB00E8F46C /* APColorPickerStatic */ = {
+			isa = PBXGroup;
+			children = (
+				662DAA2F1FC24FCB00E8F46C /* APColorPickerStatic.h */,
+				662DAA301FC24FCB00E8F46C /* APColorPickerStatic.m */,
+			);
+			path = APColorPickerStatic;
+			sourceTree = "<group>";
+		};
 		666B66FB1F9BE3D6003E4FF7 = {
 			isa = PBXGroup;
 			children = (
 				666B67071F9BE3D6003E4FF7 /* APColorPicker */,
+				666B67291F9BF43B003E4FF7 /* APExampleApp */,
+				662DAA2E1FC24FCB00E8F46C /* APColorPickerStatic */,
 				666B67061F9BE3D6003E4FF7 /* Products */,
+				666B67421F9BF45C003E4FF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				666B67051F9BE3D6003E4FF7 /* APColorPicker.framework */,
+				666B67281F9BF43B003E4FF7 /* APExampleApp.app */,
+				662DAA2D1FC24FCB00E8F46C /* libAPColorPickerStatic.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +158,42 @@
 			isa = PBXGroup;
 			children = (
 				666B67081F9BE3D6003E4FF7 /* APColorPicker.h */,
+				666B67101F9BE443003E4FF7 /* APColorAlert.h */,
+				666B67111F9BE443003E4FF7 /* APColorAlert.m */,
+				666B67141F9BE54C003E4FF7 /* APHaloHueView.h */,
+				666B67151F9BE54C003E4FF7 /* APHaloHueView.m */,
+				666B67181F9BE6DC003E4FF7 /* APColorSlider.h */,
+				666B67191F9BE6DC003E4FF7 /* APColorSlider.m */,
+				666B67201F9BED81003E4FF7 /* APColorPreviewView.h */,
+				666B67211F9BED81003E4FF7 /* APColorPreviewView.m */,
+				666B671C1F9BEA70003E4FF7 /* UIColor+APColor.h */,
+				666B671E1F9BEACE003E4FF7 /* UIColor+APColor.m */,
 				666B67091F9BE3D6003E4FF7 /* Info.plist */,
 			);
 			path = APColorPicker;
+			sourceTree = "<group>";
+		};
+		666B67291F9BF43B003E4FF7 /* APExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				666B672A1F9BF43B003E4FF7 /* AppDelegate.h */,
+				666B672B1F9BF43B003E4FF7 /* AppDelegate.m */,
+				666B672D1F9BF43B003E4FF7 /* ViewController.h */,
+				666B672E1F9BF43B003E4FF7 /* ViewController.m */,
+				666B67301F9BF43B003E4FF7 /* Main.storyboard */,
+				666B67331F9BF43B003E4FF7 /* Assets.xcassets */,
+				666B67351F9BF43B003E4FF7 /* LaunchScreen.storyboard */,
+				666B67381F9BF43B003E4FF7 /* Info.plist */,
+				666B67391F9BF43B003E4FF7 /* main.m */,
+			);
+			path = APExampleApp;
+			sourceTree = "<group>";
+		};
+		666B67421F9BF45C003E4FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,13 +203,35 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				666B671A1F9BE6DC003E4FF7 /* APColorSlider.h in Headers */,
 				666B670A1F9BE3D6003E4FF7 /* APColorPicker.h in Headers */,
+				666B671D1F9BEA70003E4FF7 /* UIColor+APColor.h in Headers */,
+				666B67121F9BE443003E4FF7 /* APColorAlert.h in Headers */,
+				666B67161F9BE54C003E4FF7 /* APHaloHueView.h in Headers */,
+				666B67221F9BED81003E4FF7 /* APColorPreviewView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		662DAA2C1FC24FCB00E8F46C /* APColorPickerStatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662DAA331FC24FCB00E8F46C /* Build configuration list for PBXNativeTarget "APColorPickerStatic" */;
+			buildPhases = (
+				662DAA291FC24FCB00E8F46C /* Sources */,
+				662DAA2A1FC24FCB00E8F46C /* Frameworks */,
+				662DAA2B1FC24FCB00E8F46C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APColorPickerStatic;
+			productName = APColorPickerStatic;
+			productReference = 662DAA2D1FC24FCB00E8F46C /* libAPColorPickerStatic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		666B67041F9BE3D6003E4FF7 /* APColorPicker */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 666B670D1F9BE3D6003E4FF7 /* Build configuration list for PBXNativeTarget "APColorPicker" */;
@@ -84,6 +250,24 @@
 			productReference = 666B67051F9BE3D6003E4FF7 /* APColorPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		666B67271F9BF43B003E4FF7 /* APExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 666B673B1F9BF43B003E4FF7 /* Build configuration list for PBXNativeTarget "APExampleApp" */;
+			buildPhases = (
+				666B67241F9BF43B003E4FF7 /* Sources */,
+				666B67251F9BF43B003E4FF7 /* Frameworks */,
+				666B67261F9BF43B003E4FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				666B67411F9BF456003E4FF7 /* PBXTargetDependency */,
+			);
+			name = APExampleApp;
+			productName = APExampleApp;
+			productReference = 666B67281F9BF43B003E4FF7 /* APExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -93,7 +277,15 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Bailey Seymour";
 				TargetAttributes = {
+					662DAA2C1FC24FCB00E8F46C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
 					666B67041F9BE3D6003E4FF7 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					666B67271F9BF43B003E4FF7 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -105,6 +297,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 666B66FB1F9BE3D6003E4FF7;
 			productRefGroup = 666B67061F9BE3D6003E4FF7 /* Products */;
@@ -112,6 +305,8 @@
 			projectRoot = "";
 			targets = (
 				666B67041F9BE3D6003E4FF7 /* APColorPicker */,
+				666B67271F9BF43B003E4FF7 /* APExampleApp */,
+				662DAA2C1FC24FCB00E8F46C /* APColorPickerStatic */,
 			);
 		};
 /* End PBXProject section */
@@ -124,19 +319,131 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		666B67261F9BF43B003E4FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666B67371F9BF43B003E4FF7 /* LaunchScreen.storyboard in Resources */,
+				666B67341F9BF43B003E4FF7 /* Assets.xcassets in Resources */,
+				666B67321F9BF43B003E4FF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		662DAA291FC24FCB00E8F46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662DAA3A1FC2500400E8F46C /* UIColor+APColor.m in Sources */,
+				662DAA391FC2500100E8F46C /* APColorPreviewView.m in Sources */,
+				662DAA381FC24FFD00E8F46C /* APColorSlider.m in Sources */,
+				662DAA371FC24FFA00E8F46C /* APHaloHueView.m in Sources */,
+				662DAA361FC24FF200E8F46C /* APColorAlert.m in Sources */,
+				662DAA311FC24FCB00E8F46C /* APColorPickerStatic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		666B67001F9BE3D6003E4FF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				666B67231F9BED81003E4FF7 /* APColorPreviewView.m in Sources */,
+				666B67171F9BE54C003E4FF7 /* APHaloHueView.m in Sources */,
+				666B671F1F9BEACE003E4FF7 /* UIColor+APColor.m in Sources */,
+				666B67131F9BE443003E4FF7 /* APColorAlert.m in Sources */,
+				666B671B1F9BE6DC003E4FF7 /* APColorSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666B67241F9BF43B003E4FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				666B672F1F9BF43B003E4FF7 /* ViewController.m in Sources */,
+				666B673A1F9BF43B003E4FF7 /* main.m in Sources */,
+				666B672C1F9BF43B003E4FF7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		666B67411F9BF456003E4FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 666B67041F9BE3D6003E4FF7 /* APColorPicker */;
+			targetProxy = 666B67401F9BF456003E4FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		666B67301F9BF43B003E4FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666B67311F9BF43B003E4FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		666B67351F9BF43B003E4FF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				666B67361F9BF43B003E4FF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		662DAA341FC24FCB00E8F46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMADB5PKU7;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		662DAA351FC24FCB00E8F46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7,
+				);
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMADB5PKU7;
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
 		666B670B1F9BE3D6003E4FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -186,9 +493,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -238,7 +545,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -250,6 +557,7 @@
 		666B670E1F9BE3D6003E4FF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -259,7 +567,9 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = APColorPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baileyseymour.APColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -270,6 +580,7 @@
 		666B670F1F9BE3D6003E4FF7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -279,6 +590,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = APColorPicker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.baileyseymour.APColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -287,9 +599,46 @@
 			};
 			name = Release;
 		};
+		666B673C1F9BF43B003E4FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMADB5PKU7;
+				INFOPLIST_FILE = APExampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baileyseymour.APExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		666B673D1F9BF43B003E4FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CMADB5PKU7;
+				INFOPLIST_FILE = APExampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baileyseymour.APExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		662DAA331FC24FCB00E8F46C /* Build configuration list for PBXNativeTarget "APColorPickerStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662DAA341FC24FCB00E8F46C /* Debug */,
+				662DAA351FC24FCB00E8F46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		666B66FF1F9BE3D6003E4FF7 /* Build configuration list for PBXProject "APColorPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -304,6 +653,15 @@
 			buildConfigurations = (
 				666B670E1F9BE3D6003E4FF7 /* Debug */,
 				666B670F1F9BE3D6003E4FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		666B673B1F9BF43B003E4FF7 /* Build configuration list for PBXNativeTarget "APExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666B673C1F9BF43B003E4FF7 /* Debug */,
+				666B673D1F9BF43B003E4FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
