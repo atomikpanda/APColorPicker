@@ -110,7 +110,7 @@
     self.haloView =
     // HUE HARDCODED !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     [[[APHaloHueView alloc] initWithFrame:haloViewFrame minValue:0 maxValue:1 value:startColor.APHue delegate:self] autorelease];
-    
+//    self.haloView.backgroundColor = [UIColor greenColor]; // for testing rect
     // [self.haloView makeReadyForDisplay];
     
     [self.haloView removeFromSuperview];

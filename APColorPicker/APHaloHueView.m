@@ -63,6 +63,15 @@
     return self;
 }
 
+- (CGRect)increaseRect:(CGRect)rect byPercentage:(CGFloat)percentage
+{
+    CGFloat startWidth = CGRectGetWidth(rect);
+    CGFloat startHeight = CGRectGetHeight(rect);
+    CGFloat adjustmentWidth = (startWidth * percentage) / 2.0;
+    CGFloat adjustmentHeight = (startHeight * percentage) / 2.0;
+    return CGRectInset(rect, -adjustmentWidth, -adjustmentHeight);
+}
+
 // - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 // {
 //     if (touches.count > 1) return;
@@ -107,8 +116,14 @@
         // if (isKnobBeingTouched)
         // {
         CGPoint touchLocation = [self.gest locationInView:self];//[[touches anyObject] locationInView:self];
-        
-        
+//        CGRect frameCopy = self.frame;
+//        frameCopy = [self increaseRect:frameCopy byPercentage:0.3f];
+//        
+//        BOOL withinBounds = CGRectContainsPoint(frameCopy, touchLocation);
+//        if (!withinBounds) {
+//            //do something
+//            return;
+//        }
         
         float touchVector[2] = {touchLocation.x - knobCenter.x, touchLocation.y - knobCenter.y}; //gets the vector of the difference between the touch location and the knob center
         float tangentVector[2] = {knobCenter.y - barCenter.y, barCenter.x - knobCenter.x}; //gets a vector tangent to the circle at the center of the knob
