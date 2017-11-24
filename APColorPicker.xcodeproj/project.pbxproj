@@ -20,6 +20,8 @@
 		662DAA3E1FC2568200E8F46C /* APColorSlider.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666B67181F9BE6DC003E4FF7 /* APColorSlider.h */; };
 		662DAA3F1FC2568400E8F46C /* APColorPreviewView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666B67201F9BED81003E4FF7 /* APColorPreviewView.h */; };
 		662DAA401FC2568700E8F46C /* UIColor+APColor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 666B671C1F9BEA70003E4FF7 /* UIColor+APColor.h */; };
+		662DAA411FC8709B00E8F46C /* APColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666B67051F9BE3D6003E4FF7 /* APColorPicker.framework */; };
+		662DAA421FC8709B00E8F46C /* APColorPicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 666B67051F9BE3D6003E4FF7 /* APColorPicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		666B670A1F9BE3D6003E4FF7 /* APColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 666B67081F9BE3D6003E4FF7 /* APColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		666B67121F9BE443003E4FF7 /* APColorAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 666B67101F9BE443003E4FF7 /* APColorAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		666B67131F9BE443003E4FF7 /* APColorAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67111F9BE443003E4FF7 /* APColorAlert.m */; };
@@ -37,7 +39,6 @@
 		666B67341F9BF43B003E4FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 666B67331F9BF43B003E4FF7 /* Assets.xcassets */; };
 		666B67371F9BF43B003E4FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 666B67351F9BF43B003E4FF7 /* LaunchScreen.storyboard */; };
 		666B673A1F9BF43B003E4FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 666B67391F9BF43B003E4FF7 /* main.m */; };
-		666B67431F9BF45C003E4FF7 /* APColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666B67051F9BE3D6003E4FF7 /* APColorPicker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,17 @@
 				662DAA401FC2568700E8F46C /* UIColor+APColor.h in CopyFiles */,
 				662DAA3F1FC2568400E8F46C /* APColorPreviewView.h in CopyFiles */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662DAA431FC8709B00E8F46C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				662DAA421FC8709B00E8F46C /* APColorPicker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -117,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				666B67431F9BF45C003E4FF7 /* APColorPicker.framework in Frameworks */,
+				662DAA411FC8709B00E8F46C /* APColorPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +269,7 @@
 				666B67241F9BF43B003E4FF7 /* Sources */,
 				666B67251F9BF43B003E4FF7 /* Frameworks */,
 				666B67261F9BF43B003E4FF7 /* Resources */,
+				662DAA431FC8709B00E8F46C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
